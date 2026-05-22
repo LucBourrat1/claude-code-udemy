@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+    - generic [ref=e2]:
+        - heading "Welcome to Notes" [level=1] [ref=e3]
+        - paragraph [ref=e4]: Create, edit, and share rich-text notes.
+        - navigation [ref=e5]:
+            - link "Sign in / Register" [ref=e6] [cursor=pointer]:
+                - /url: /authenticate
+            - link "Dashboard" [ref=e7] [cursor=pointer]:
+                - /url: /dashboard
+            - link "Note editor (demo)" [ref=e8] [cursor=pointer]:
+                - /url: /notes/demo
+            - link "Public note (demo)" [ref=e9] [cursor=pointer]:
+                - /url: /p/demo
+    - button "Open Next.js Dev Tools" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+    - alert [ref=e19]

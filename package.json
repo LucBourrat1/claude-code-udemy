@@ -6,7 +6,10 @@
     "dev": "bun run --bun next dev",
     "build": "bun run --bun next build",
     "start": "bun run --bun next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "oxfmt",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@tiptap/pm": "^3.23.5",
@@ -15,6 +18,7 @@
     "better-auth": "^1.6.11",
     "nanoid": "^5.1.11",
     "next": "16.1.1",
+    "oxfmt": "^0.51.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "zod": "^4.4.3"
@@ -28,7 +32,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.7"
   },
   "ignoreScripts": [
     "sharp",
