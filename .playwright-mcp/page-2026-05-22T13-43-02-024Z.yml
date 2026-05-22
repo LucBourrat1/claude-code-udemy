@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "NextNotes" [ref=e4] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=e5]:
+        - generic [ref=e6]: Test User
+        - button "Sign out" [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "New Note" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Title
+          - textbox "Title" [ref=e14]:
+            - /placeholder: Note title
+            - text: My First Note
+        - generic [ref=e15]:
+          - generic [ref=e16]: Content
+          - textbox [ref=e19]:
+            - paragraph [ref=e20]: This is my first note with rich text content.
+        - button "Creating…" [disabled] [ref=e32]
+  - button "Open Next.js Dev Tools" [ref=e33] [cursor=pointer]:
+    - generic [ref=e36]:
+      - text: Compiling
+      - generic [ref=e37]:
+        - generic [ref=e38]: .
+        - generic [ref=e39]: .
+        - generic [ref=e40]: .
+  - alert [ref=e31]

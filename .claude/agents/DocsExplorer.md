@@ -22,8 +22,8 @@ When given one or more technologies/libraries to look up:
 
 For each library, call these in sequence:
 
-1. `mcp_Context7_resolve-library-id` with the library name to get the Context7 ID
-2. `mcp_Context7_query-docs` with the resolved ID and specific query
+1. `mcp__context7__resolve-library-id` with the library name to get the Context7 ID
+2. `mcp__context7__query-docs` with the resolved ID and specific query
 
 Run Step 1 for ALL libraries in parallel.
 

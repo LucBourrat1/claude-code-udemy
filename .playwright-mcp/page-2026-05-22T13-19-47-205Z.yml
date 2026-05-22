@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Already signed in" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Signed in as test@test.com
+      - generic [ref=e8]:
+        - link "Go to dashboard" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+        - button "Sign out" [ref=e10] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+    - img [ref=e17]
+  - alert [ref=e20]
