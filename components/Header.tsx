@@ -9,7 +9,7 @@ export default function Header({ userName }: { userName: string }) {
           href="/dashboard"
           className="text-xl font-bold tracking-tight text-neutral-900 transition-opacity hover:opacity-80 dark:text-white"
         >
-          NextNotes
+          Dashboard
         </Link>
         <div className="flex items-center gap-4">
           {userName ? (

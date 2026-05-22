@@ -38,7 +38,7 @@ export default function NoteEditorForm({ note }: { note: Note }) {
         }),
       });
       if (!res.ok) throw new Error();
-      router.refresh();
+      router.push("/dashboard");
     } catch {
       setError("Failed to save note.");
     } finally {
