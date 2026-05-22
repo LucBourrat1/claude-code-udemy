@@ -15,3 +15,5 @@ out/
 *.pem
 
 *.env
+*.db
+*.db*
